@@ -8,7 +8,7 @@ library(sf)
 library(viridis)
 library(extrafont)
 
-setwd("~/Documents/GitHub/population_grid")
+setwd("~/Documents/GitHub/Drawing-Population-Maps-in-R")
 
 shiga <- read_sf("1km_mesh_suikei_2018_shape_25/1km_mesh_2018_25.shp")
 kyoto <- read_sf("1km_mesh_suikei_2018_shape_26/1km_mesh_2018_26.shp")
